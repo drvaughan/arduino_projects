@@ -34,7 +34,7 @@ void loop() {
       digitalWrite(5,LOW);
       delay(del);
 
-      del = del-20;
+      del = del-30;
       if (del < 30) {
         del = 30;
       }
